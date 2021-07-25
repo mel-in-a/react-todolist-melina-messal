@@ -1,1 +1,65 @@
 /* Other rules */
+/* Other rules */
+:root {
+  --color-purple: rgb(92, 72, 211);
+  --color-light-grey: rgb(236, 236, 236);
+}
+body {
+  position: relative;
+  min-height: 100vh;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1rem;
+  /* background-color: var(--color-light-grey); */
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  border-bottom: 1px solid #5c48d3;
+  /* background-color:blue; */
+}
+.header .logo {
+  margin: 0 30px;
+  color: #5c48d3;
+}
+.header .title {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.btn-basic {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #5c48d3;
+  color: #fff;
+}
+
+.btn-block {
+  display: block;
+}
+
+input {
+ width: auto;
+  height: 100%;
+  padding: 10px;
+}
+
+/* FOOTER */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  background-color: rgb(236, 236, 236);
+  color: black;
+  font-size: 12px;
+}
